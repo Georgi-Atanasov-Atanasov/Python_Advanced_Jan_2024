@@ -23,11 +23,11 @@ else:
     print("Harry found an ostracon, which is dated to the 6th century BCE.")
 
 if tools:
-    print(', '.join(str(x) for x in tools))
+    print(f"Tools: {', '.join(str(x) for x in tools)}")
 if substances:
-    print(', '.join(str(x) for x in substances))
+    print(f"Substances: {', '.join(str(x) for x in substances)}")
 if challenges:
-    print(', '.join(str(x) for x in challenges))
+    print(f"Challenges: {', '.join(str(x) for x in challenges)}")
 
 
 
