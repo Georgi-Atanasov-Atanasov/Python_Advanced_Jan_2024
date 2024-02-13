@@ -53,7 +53,7 @@ if medicaments:
     current_list = []
     for medicament in medicaments:
         current_list.append(medicament)
-    print(f"Medicaments left: {', '.join(str(ch) for ch in current_list[::-1])}")
+    print(f"Medicaments left: {', '.join(str(x) for x in current_list[::-1])}")
 
 if textile:
     print(f"Textiles left: {', '.join([str(x) for x in textile])}")
