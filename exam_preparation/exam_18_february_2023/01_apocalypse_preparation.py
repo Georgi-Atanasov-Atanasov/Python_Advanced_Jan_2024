@@ -4,6 +4,7 @@ textile = deque([int(x) for x in input().split()])
 medicaments = [int(x) for x in input().split()]
 
 MED_KIT_VALUE = 100
+
 item_list = {
     "Patch": 30,
     "Bandage": 40,
